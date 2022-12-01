@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Wesley Martins Brito">
+    <meta name="description" content="Live Cep, maior e melhor site para obter informações sobre o seu CEP!">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Live CEP - Digite o seu CEP</title>
+</head>
+<body>
+    <header>
+        <a href="livecep.html"> <img src="logo.png" alt="LiveCEP Logo" class="logo"></a>
+        <a href="livecep.html" class="livecep"> <b>Live CEP</b></a>
+    </header>
+        <section>
+            <div class="card">
+                    <p class="deseja">Você deseja consultar um CEP? </p>
+                    <p class="deseja"> Está no lugar certo! :)</p>
+                <div class="digite">
+                    <p>Digite aqui o seu CEP:</p>
+                </div>
+                <div class="cep">
+                    <input type="text" placeholder="Digite (Em números)" class="cep" id="cepNumber" required>
+                </div>
+                <div id="result">
+
+                </div>
+                <button id="botao" onclick="pesquisar()">Pesquisar</button>
+            </div>
+    </section>
+    <script src="js/livecep.js"></script>
+</body>
+</html>
